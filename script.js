@@ -9,7 +9,11 @@ if (age < 13) {
 } else {
     console.log("Bienvenue dans l'espace adulte.");
 }
-let grr =11
-for (let i = 1; i < grr;i++) {
-    console.log("grr n°" + (i + 1) + ": " + i*7);
+let tabl7 =11
+for (let i = 0; i < tabl7;i++) {
+    console.log("7x" + (i) + ": " +  i*7);
 }
+const saluer = (note1, note2) => {
+    const moyenne = (note1 + note2) / 2;
+    return moyenne;
+};

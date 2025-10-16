@@ -13,3 +13,7 @@ let tabl7 =11
 for (let i = 0; i < tabl7;i++) {
     console.log("7x" + (i) + ": " +  i*7);
 }
+const prenom = Maxime
+    function saluer (prenom)
+    console.log(Bonjour, prenom ! Comment vas-tu ?)
+};

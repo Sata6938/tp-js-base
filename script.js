@@ -15,5 +15,5 @@ for (let i = 0; i < tabl7;i++) {
 }
 const prenom = Maxime
     function saluer (prenom)
-    console.log(Bonjour, prenom ! Comment vas-tu ?)
+    console.log(Bonjour, [prenom] ! Comment vas-tu ?)
 };

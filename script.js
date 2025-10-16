@@ -13,7 +13,3 @@ let tabl7 =11
 for (let i = 0; i < tabl7;i++) {
     console.log("7x" + (i) + ": " +  i*7);
 }
-const saluer = (note1, note2) => {
-    const moyenne = (note1 + note2) / 2;
-    return moyenne;
-};

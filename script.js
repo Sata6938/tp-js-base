@@ -13,7 +13,20 @@ let tabl7 =11
 for (let i = 0; i < tabl7;i++) {
     console.log("7x" + (i) + ": " +  i*7);
 }
-const prenom = Maxime
-    function saluer (prenom)
-    console.log("Bonjour, [prenom] ! Comment vas-tu ?")
-};
+const prenom = "Maxime" 
+    function saluer (prenom) {
+    console.log("Bonjour, " + prenom + "! Comment vas-tu ?")
+}
+saluer(prenom)
+
+const Phrase = "je me baladais dans la rue vers vibgt et une heure quand soudain je vis un chat"
+let CompteurDeVoyelles =0
+for (let i = 0; i < tabl7;i++) {
+    console.log("7x" + (i) + ": " +  i*7);
+}
+ 
+
+
+
+
+console.log("je me baladais dans la rue vers vibgt et une heure quand soudain je vis un chat")

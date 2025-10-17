@@ -26,28 +26,13 @@ for (let i = 0; i < tabl7;i++) {
 }
  
 
-
-
-
-console.log("je me baladais dans la rue vers vibgt et une heure quand soudain je vis un chat")
-
-
-
-// Définir la phrase
-let phrase = "Bonjour, comment ça va aujourd'hui ?";
-
-// Afficher la phrase dans la console
-console.log("La phrase est : " + phrase);
-
-// Compter le nombre de voyelles
+let phrase = "je me baladais dans la rue vers vingt et une heure quand soudain je vis un chat";
+console.log("La prase est : " + phrase);
 let voyelles = "aeiouyAEIOUY";
 let compteur = 0;
-
 for (let i = 0; i < phrase.length; i++) {
     if (voyelles.includes(phrase[i])) {
         compteur++;
     }
 }
-
-// Afficher le résultat
-console.log("Cette phrase comporte " + compteur + " voyelle(s).");
+console.log("Cette phrase comprte " + compteur + " voyelles.");

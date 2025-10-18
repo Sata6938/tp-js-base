@@ -26,7 +26,7 @@ for (let i = 0; i < tabl7;i++) {
 }
  
 
-let phrase = "je me baladais dans la rue vers vingt et une heure quand soudain je vis un chat";
+let phrase = "je me baladais dans la rue vers vingt et une heure quand soudain je vis un chat.Il etait tres mignon";
 console.log("La prase est : " + phrase);
 let voyelles = "aeiouyAEIOUY";
 let compteur = 0;

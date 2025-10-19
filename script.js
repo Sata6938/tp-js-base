@@ -2,6 +2,8 @@ const nom = "maxime"
 let age = 16
 console.log(nom)
 console.log(age)
+
+
 if (age < 13) {
     console.log("Accès interdit aux moins de 13 ans.");
 } else if (age < 18) {
@@ -9,22 +11,21 @@ if (age < 13) {
 } else {
     console.log("Bienvenue dans l'espace adulte.");
 }
+
+
 let tabl7 =11
 for (let i = 0; i < tabl7;i++) {
     console.log("7x" + (i) + ": " +  i*7);
 }
+
+
 const prenom = "Maxime" 
     function saluer (prenom) {
     console.log("Bonjour, " + prenom + "! Comment vas-tu ?")
 }
 saluer(prenom)
 
-const Phrase = "je me baladais dans la rue vers vibgt et une heure quand soudain je vis un chat"
-let CompteurDeVoyelles =0
-for (let i = 0; i < tabl7;i++) {
-    console.log("7x" + (i) + ": " +  i*7);
-}
- 
+
 
 let phrase = "je me baladais dans la rue vers vingt et une heure quand soudain je vis un chat.Il etait tres mignon";
 console.log("La prase est : " + phrase);
@@ -37,6 +38,9 @@ for (let i = 0; i < phrase.length; i++) {
 }
 console.log("Cette phrase comprte " + compteur + " voyelles.");
 
-let mot = "bonjour";
+
+
+let mot = "anticonstitutionnellement";
+console.log("le mot est : " + mot)
 let motInverse = mot.split("").reverse().join("");
-console.log(motInverse);
+console.log("le mot ecris a l'envers est : " + motInverse);

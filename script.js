@@ -36,3 +36,7 @@ for (let i = 0; i < phrase.length; i++) {
     }
 }
 console.log("Cette phrase comprte " + compteur + " voyelles.");
+
+let mot = "bonjour";
+let motInverse = mot.split("").reverse().join("");
+console.log(motInverse);

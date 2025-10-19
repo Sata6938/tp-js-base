@@ -45,7 +45,9 @@ console.log("le mot est : " + mot)
 let motInverse = mot.split("").reverse().join("");
 console.log("le mot ecris a l'envers est : " + motInverse);
 
-let factorielle =5
-for (let i = 0; i < factorielle;i++) {
-    console.log("factorielle de " + (i) + ": " +  i*(i-1));
+let factorielle =4
+for (let i = factorielle+1; i > factorielle;i--) {
+    console.log("factorielle de " + (factorielle+1) + ": " + ((i+1)*(i-1))*5);
 }
+
+
